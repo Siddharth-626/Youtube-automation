@@ -1,0 +1,14 @@
+{
+  "name": "youtube-shorts-automation-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "start": "npm run start -w apps/web",
+    "generate-video": "npm run generate-video -w apps/web"
+  }
+}

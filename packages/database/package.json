@@ -1,0 +1,9 @@
+{
+  "name": "@repo/database",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "mongoose": "^8.5.1"
+  }
+}

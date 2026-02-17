@@ -1,0 +1,9 @@
+{
+  "name": "@repo/youtube-service",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "googleapis": "^140.0.1"
+  }
+}
